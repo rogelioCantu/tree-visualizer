@@ -1,6 +1,6 @@
 {
+  "homepage": "https://rogeliocantu.github.io/tree-visualizer/",
   "name": "tree-visualizer-page",
-  "homepage": "https://github.com/rogelioCantu/tree-visualizer.git",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.0",
